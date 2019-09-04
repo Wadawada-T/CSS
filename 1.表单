@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="../day01/html/6、蜀道难.html" method="get">
+    账户：<input type="text" name="username"  placeholder="请输入您的账户" required="required"><br><!--username=admin-->
+    密码：<input type="password" name="pwd" value="666" disabled="disabled" required="required"><br><!--pwd=123-->
+    性别：
+    <input type="radio" name="sex" value="male" checked="checked" >男<!--sex=male-->
+    <input type="radio" name="sex" value="female" readonly="readonly">女
+    <input type="radio" name="sex" value="other">其他 <br>
+    爱好:
+    <input type="checkbox"name="hobby" value="bas" disabled="disabled">篮球
+    <input type="checkbox" name="hobby" value="foot">足球
+    <input type="checkbox" name="hobby" value="rap"  checked="checked" >rap <br>
+    <input type="hidden" name="id" value="007">
+    文件上传： <input type="file" name="myfile"> <br>
+    <textarea name="description" style="width: 250px;height: 250px;" placeholder="详细描述"></textarea><br>
+    <select name="city">
+        <option value="bj">北京</option>
+        <option value="sh">上海</option>
+        <option value="sz" disabled="disabled">深圳</option>
+        <option value="hz" selected="selected">杭州</option>
+    </select><br>
+    <input type="submit" value="登录">
+    <input type="reset" value="重置">
+    <input type="button" value="普通按钮">
+    <input type="image" src="img.png">
+</form>
+</body>
+</html>
